@@ -1,0 +1,109 @@
+body {
+    background-image: url(bg2.jpeg);
+    zoom: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 700px;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-left: 750px;
+    font-family: cursive;
+
+}
+
+h3 {
+    margin-top: 50px;
+    margin-left: 750px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.playagain {
+    margin-top: 70px;
+    margin-left: 950px;
+}
+
+.returnhome {
+    margin-left: 1150px;
+    margin-top: -20px;
+
+}
+
+.button {
+    position: absolute;
+    margin-top: 40px;
+
+}
+
+.button-32 {
+    background-color: whitesmoke;
+    border-radius: 12px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 200ms;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    margin-left: 950px;
+}
+
+.button-32:not(:disabled):hover,
+.button-32:not(:disabled):focus {
+    outline: 0;
+    background: #f4e603;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, .2), 0 3px 8px 0 rgba(0, 0, 0, .15);
+}
+
+.button-32:disabled {
+    filter: saturate(0.2) opacity(0.5);
+    -webkit-filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
+}
+
+.button-33 {
+    background-color: whitesmoke;
+    border-radius: 12px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 200ms;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    margin-left: 90px;
+}
+
+.button-33:not(:disabled):hover,
+.button-33:not(:disabled):focus {
+    outline: 0;
+    background: #f4e603;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, .2), 0 3px 8px 0 rgba(0, 0, 0, .15);
+}
+
+.button-33:disabled {
+    filter: saturate(0.2) opacity(0.5);
+    -webkit-filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
+}

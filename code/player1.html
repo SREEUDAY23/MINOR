@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAND CRICKET</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Hand Cricket</h1>
+    </header>
+    <div class="status">
+        <img src="cricket-ball.png" id="imgbat">
+        <span class="status-txt" id="p1-name">Player 1</span>
+        <span class="status-txt" id="cen">bowling | batting</span>
+        <span class="status-txt" id="p2-name">Player 2</span>
+        <img src="cricket-bat.png" id="imgball">
+    </div>
+    <div class="score-card">
+        <div id="runs-label" class="card-badge">runs</div>
+        <div id="wickets-label" class="card-badge">wickets</div>
+        <span id="runs">0</span>/<span id="wickets">0</span>
+        <div class="score-card-footer">
+            <p id="overs">Overs: 0.0</p>
+
+        </div>
+    </div>
+    <div class="target" id = "tar">
+        <p>
+            TARGET : 00
+        </p>
+    </div>
+
+    <div class="statuss" id="box1">
+        <p>
+
+        </p>
+    </div>
+
+    <div class="statusss" id="box2">
+        <p>
+
+        </p>
+    </div>
+    <div class="statussss" id="box3">
+        <p>
+
+        </p>
+    </div>
+    <div class="move">
+        <div class="Choices1">
+            <div class="choice" id="hand1">
+                <img class="hand" src="1.png" onclick="one(); overs(); wicketone()">
+            </div>
+            <div class="choice" id="hand2">
+                <img class="hand" src="2.png" onclick="two(); overs();">
+            </div>
+            <div class="choice" id="hand3">
+                <img class="hand" src="3.png" onclick="three(); overs();">
+            </div>
+        </div>
+        <div class="Choices2">
+            <div class="choice" id="hand4">
+                <img class="hand" src="4.png" onclick="four(); overs();">
+            </div>
+            <div class="choice" id="hand5">
+                <img class="hand" src="5.png" onclick="five(); overs();">
+            </div>
+            <div class="choice" id="hand6">
+                <img class="hand" src="6.png" onclick="six(); overs();">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="handcricket.js">
+
+
+</script>
+<script src="hand.js"></script>

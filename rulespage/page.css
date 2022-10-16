@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    zoom: 100%;
+}
+
+nav {
+    height: 50px;
+}
+
+
+.one1 {
+    position: relative;
+    left: 1250px;
+    top: 14px;
+    align-items: center;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+
+    flex-direction: column;
+    font-family: "Codec cold", sans-serif;
+    justify-content: center;
+    letter-spacing: .4px;
+    line-height: 2;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+
+
+}
+
+.one2 {
+    position: relative;
+    left: 1200px;
+    top: 14px;
+    align-items: center;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    flex-direction: column;
+    font-family: "Codec cold", sans-serif;
+
+    justify-content: center;
+    letter-spacing: .4px;
+    line-height: 2;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    margin-left: 90px;
+
+}
+
+#logo {
+    height: 60px;
+    width: 200px;
+    bottom: 60px;
+    position: relative;
+
+}
+
+
+
+
+.container {
+
+    background-color: #1cac78;
+    background-image: linear-gradient(to right, #1cac78, #32CD32);
+    height: 695px;
+    position: relative;
+
+
+}
+
+#pic {
+    margin-left: 200px;
+    position: absolute;
+    top: 110px;
+    height: 200px;
+    margin: 40px;
+}
+
+h1 {
+    color: white;
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 900px;
+    position: absolute;
+    margin-top: 300px;
+
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 900px;
+    position: absolute;
+    margin-top: 400px;
+
+}
+
+.button-75 {
+    align-items: center;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-family: "Codec cold", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    height: 54px;
+    justify-content: center;
+    letter-spacing: .4px;
+    line-height: 1;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 400px;
+    margin-top: 400px;
+}
+
+.button-75:active {
+    outline: 0;
+}
+
+.button-75:hover {
+    outline: 0;
+}
+
+.button-75 span {
+    transition: all 200ms;
+}
+
+.button-75:hover span {
+    transform: scale(.9);
+    opacity: .75;
+}
+
+@media screen and (max-width: 991px) {
+    .button-75 {
+        font-size: 15px;
+        height: 50px;
+    }
+
+    .button-75 span {
+        line-height: 50px;
+    }
+}

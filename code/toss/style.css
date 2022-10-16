@@ -1,0 +1,39 @@
+body {
+    background-image: url(bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    zoom: 100%;
+}
+
+#flip {
+    width: 550px;
+    height: 450px;
+    margin-left: 470px;
+    margin-top: 50px;
+
+}
+
+#toss {
+    height: 50px;
+    width: 200px;
+    color: black;
+    font-size: 20px;
+    position: fixed;
+    top: 550px;
+    margin-left: -500px;
+
+
+}
+
+#toss1 {
+    height: 50px;
+    width: 200px;
+    color: black;
+    font-size: 20px;
+    position: fixed;
+    top: 550px;
+    margin-left: -240px;
+
+
+}

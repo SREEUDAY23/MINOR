@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styke.css">
+    <title>toss result</title>
+</head>
+
+<body>
+    <div>
+        <h1>CONGRATULATIONS!!</h1>
+        <h2>
+            YOU HAVE WON THE TOSS!
+        </h2>
+        <h2>CHOOSE TO BAT OR BOWL</h2>
+    </div>
+    <div>
+        <button id="bat" onclick="bat()">BAT</button>
+        <button id="bowl" onclick="ball()">BOWL</button>
+    </div>
+
+</body>
+<script>
+    function bat() {
+        window.location.replace("http://127.0.0.1:5500/code/player1.html");
+    }
+    function ball() {
+        window.location.replace("http://127.0.0.1:5500/code/player2.html");
+    }
+</script>
+</html>
